@@ -1,10 +1,10 @@
 # volunteerfit
 
-VolunteerFit is a web-based platform designed to connect volunteers with organizations that provide volunteering opportunities. This project is built using Python (Flask) and MySQL for the backend.
+VolunteerFit is a web-based platform designed to connect volunteers with organizations that provide volunteering opportunities. This project is built using Python and MySQL for the backend.
 
 Project Overview
 
-VolunteerFit aims to facilitate the connection between volunteers and organizations by providing a platform where organizations can post volunteering opportunities, and volunteers can apply for them. The backend is implemented using Flask, and MySQL is used for the database.
+VolunteerFit aims to facilitate the connection between volunteers and organizations by providing a platform where organizations can post volunteering opportunities, and volunteers can apply for them. The backend is implemented using Python, and MySQL is used for the database.
 
 Features
 
@@ -16,7 +16,7 @@ Features
 
 Tech Stack
 
-    Backend: Python, Flask
+    Backend: Python
     Database: MySQL
 
 Installation
