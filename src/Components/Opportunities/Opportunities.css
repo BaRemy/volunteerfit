@@ -31,7 +31,7 @@
 }
 .btn-opportunity{
     margin-left: 20px; 
-    background:#0d0d0e;
+    background:#45d2eb;
     color: rgb(255, 255, 255);
     padding: 10px 25px;
     font-size: 16px;
@@ -43,8 +43,16 @@
     align-items: center;
     justify-content: center;
 }
+.btn-opportunity:hover{
+    background: #2f9cb7;
+}
 .opportunities h1 {
     text-align: center;
     margin-bottom: 0px;
 
+}
+@media (max-width: 65px){
+    .opportunity{
+        flex-basis: calc(50% - 20px);
+    }
 }

@@ -58,3 +58,18 @@
     display: block;
     margin: 20px 0;
 }
+
+@media (max-width: 600px){
+    .contact{
+        flex-direction: column;
+    }
+    .contact-left{
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+    }
+    .contact-right{
+        flex-basis: 100%;
+    }
+   
+}
