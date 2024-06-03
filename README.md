@@ -1,3 +1,7 @@
+Here is the corrected version of your README file with proper markdown formatting:
+
+markdown
+Copy code
 # Volunteerfit
 
 ## Description
@@ -10,68 +14,73 @@ To get started with Volunteerfit, follow these steps:
 ```sh
 git clone https://github.com/your-username/volunteerfit.git
 cd volunteerfit
-
-## Install the dependencies
+Install the dependencies
 Ensure you have Node.js installed. Then, run:
+
+sh
+
 npm install
+Run the development server
+sh
 
-##Run the development server
 npm run dev
-
-## Access the application
+Access the application
 Open your browser and navigate to http://localhost:5174/ to see the application in action.
 
-## Usage Instructions
+Usage Instructions
 Once you have the application running, you can start using Volunteerfit as follows:
 
-### Sign Up / Log In
+Sign Up / Log In
 Create an account or log in if you already have one.
 
-### Profile Setup
+Profile Setup
 Complete your profile by adding your skills, interests, and availability.
 
-### Browse Opportunities
+Browse Opportunities
 Explore the available volunteer opportunities that match your profile.
 
-### Apply for Opportunities
+Apply for Opportunities
 Apply for the opportunities that interest you.
 
-### Track Your Applications
+Track Your Applications
 Monitor the status of your applications through your dashboard.
 
-### Gain Experience
+Gain Experience
 Participate in the volunteer work, gain valuable experience, and update your profile with new skills.
 
-## Contributing
+Contributing
 We welcome everyone to contribute to our project. Here’s how you can help:
 
-#### Fork the repository
+Fork the repository
 Click the "Fork" button at the top right of this page to create a copy of the repository on your GitHub account.
 
-#### Clone your fork
+Clone your fork
+sh
+
 git clone https://github.com/your-username/volunteerfit.git
 cd volunteerfit
+Create a branch
+sh
 
-#### Create a branch
 git checkout -b feature/your-feature-name
-
-
-## Make your Changes
+Make your Changes
 Implement your feature or bug fix.
 
-#### Commit your changes
+Commit your changes
+sh
+
 git commit -m 'Add some feature'
+Push to the branch
+sh
 
-#### Push to the branch
 git push origin feature/your-feature-name
-
-#### Open a pull request
+Open a pull request
 Submit a pull request to the original repository, describing your changes in detail.
 
-## License
+License
 This project is licensed under the MIT License. You can freely use, modify, and distribute this software. See the LICENSE file for more details.
 
-## Contact Information
+Contact Information
 You can reach us on Twitter for any questions or support:
 
 @mugaberobertson
