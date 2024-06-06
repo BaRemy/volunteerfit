@@ -1,0 +1,58 @@
+.opportunities{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.opportunity img{
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    margin: 20px;
+    
+}
+.opportunity{
+    flex-basis: calc(33.33% - 20px);
+    margin: 5px;
+}
+.opportunity h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0;
+    margin-left: 20px;
+}
+.opportunity p{
+    font-size: 18px;
+    font-weight: 0;
+    margin: 10px 0;
+    margin-left: 20px;
+}
+.btn-opportunity{
+    margin-left: 20px; 
+    background:#45d2eb;
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-opportunity:hover{
+    background: #2f9cb7;
+}
+.opportunities h1 {
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+@media (max-width: 65px){
+    .opportunity{
+        flex-basis: calc(50% - 20px);
+    }
+}
