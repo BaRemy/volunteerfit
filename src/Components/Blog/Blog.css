@@ -1,0 +1,41 @@
+.about{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.about-left{
+    flex-basis: calc(50% - 20px);
+    position: relative;
+}
+.about-right{
+    flex-basis: calc(50% - 20px);
+   
+}
+.about-img{
+    width: 100%;
+    border-radius: 8px;
+}
+.play-icon{
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: translate(-50%, -50%);
+}
+.about-right h3{
+    font-weight: 500;
+    font-weight: 18px;
+    font-size: 30px;
+    color: #212EA0;
+    margin: 0;
+}
+.about-right p{
+    font-size: 18px;
+    color: #333;
+    margin: 20px 0;
+}
+
+
+
