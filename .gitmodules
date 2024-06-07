@@ -1,0 +1,3 @@
+[submodule "volunteerfit/node_modules/"]
+    path = volunteerfit/node_modules/
+    url = https://github.com/BaRemy/volunteerfit.git
