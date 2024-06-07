@@ -83,6 +83,6 @@ This project is licensed under the MIT License. You can freely use, modify, and 
 Contact Information
 You can reach us on Twitter for any questions or support:
 
-@mugaberobertson - [LinkedIn](https://www.linkedin.com/in/robert-mugabe-1548ba251/)
-@bahati_remmy - [LinkedIn](https://www.linkedin.com/in/bahati-remmy/)
+@mugaberobertson
+@bahati_remmy
 We worked on this project together and are excited to hear your feedback and contributions!
