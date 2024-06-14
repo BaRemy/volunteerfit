@@ -53,7 +53,7 @@ Click the "Fork" button at the top right of this page to create a copy of the re
 Clone your fork
 sh
 
-git clone https://github.com/your-username/volunteerfit.git
+git clone https://github.com/BaRemy/volunteerfit.git
 cd volunteerfit
 Create a branch
 sh
