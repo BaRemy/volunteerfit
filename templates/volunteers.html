@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Volunteers</h1>
+
+<form action="/volunteers" method="post">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Create Volunteer</button>
+</form>
+
+<hr>
+
+<h2>Existing Volunteers</h2>
+<ul class="list-group">
+    {% for volunteer in volunteers %}
+    <li class="list-group-item">{{ volunteer.name }} ({{ volunteer.email }})</li>
+    {% endfor %}
+</ul>
+{% endblock %}

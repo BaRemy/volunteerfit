@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Opportunities</h1>
+
+<form action="/opportunities" method="post">
+    <div class="form-group">
+        <label for="title">Title:</label>
+        <input type="text" class="form-control" id="title" name="title" required>
+    </div>
+    <div class="form-group">
+        <label for="description">Description:</label>
+        <textarea class="form-control" id="description" name="description" required></textarea>
+    </div>
+    <div class="form-group">
+        <label for="organization_id">Organization:</label>
+        <select class="form-control" id="organization_id" name="organization_id" required>
+            {% for organization in organizations %}
+            <option value="{{ organization.id }}">{{ organization.name }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Create Opportunity</button>
+</form>
+
+<hr>
+
+<h2>Existing Opportunities</h2>
+<ul class="list-group">
+    {% for opportunity in opportunities %}
+    <li class="list-group-item">{{ opportunity.title }} - {{ opportunity.description }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
