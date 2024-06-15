@@ -18,9 +18,10 @@
 </p>
 <p align="center">
 	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
-	<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML5">
-	<img src="https://img.shields.io/badge/CSS3-1572B6.svg?style=flat&logo=CSS3&logoColor=white" alt="CSS3">
+	<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
+	<img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black" alt="React">
 </p>
+
 <hr>
 
 
@@ -28,38 +29,55 @@
 
 ## 🔗 Quick Links
 
-> - [📍 Overview](#-overview)
-> - [📦 Features](#-features)
-> - [📂 Repository Structure](#-repository-structure)
-> - [🧩 Modules](#-modules)
-> - [🚀 Getting Started](#-getting-started)
->   - [⚙️ Installation](#️-installation)
->   - [🤖 Running VolunteerFit](#-running-volunteerfit)
-> - [🛠 Project Roadmap](#-project-roadmap)
+> - [📍 Project Name](#-project)
+> - [Introduction](#-Introduction)
+> - - [📦 Features](#-features)
+> - [🧩 Usage](#-Usage)
 > - [🤝 Contributing](#-contributing)
+> - [🤝 Authors](#-Authors)
 > - [📄 License](#-license)
 > - [👏 Acknowledgments](#-acknowledgments)
 
 ---
 ## 📍 Project Name: volunteerfit
----
+volunteerfit is a platform that empowers you to connect with companies and organizations seeking passionate volunteers, helping you gain valuable experience and propel your career forward. Built with React JS, Typescript, CSS, and Javascript, VolunteerFit offers a seamless and interactive user experience, making it easy to find and participate in volunteer opportunities that align with your interests and goals.
+
 ---
 
-## 📍 Introduction
 
-VolunteerFit is a platform designed to connect volunteers with companies/Organisations in oder to improve on their career experience. This project leverages Python, HTML, and CSS,React JS and Javascript to provide a seamless and interactive user experience for managing and participating in volunteer opportunities.
+## Introduction
+VolunteerFit is your one-stop shop for connecting with incredible volunteer opportunities at companies and organizations making a real difference.  Our platform empowers you to explore a vast array of volunteer experiences, allowing you to gain valuable skills, build your network, and contribute to causes you care about – all while propelling your career forward.
 
 ---
 
 ## 📦 Features
 
 - **User Landing Page**: The landing homepage for the users of the platform.
-- - **User Registration and Login**: Secure authentication for users to access personalized features.
+- **User Registration and Login**: Secure authentication for users to access personalized features.
 - **Event Management**: A user can View and apply for the event he/she needs to volunteer.
 - **Volunteer Matching**: Match volunteer opportunities based on their preferences and availability.
 - **Responsive Design**: Optimized for various devices and screen sizes.
 ---
 ## Installation
+### 1.Clone the repository:
+git clone https://github.com/BaRemy/volunteerfit.git
+
+### Navigate into the project directory:
+cd volunteerfit
+
+### Make sure you have Node.js and NPM installed on your system 
+npm --version
+
+### Install all the required packages listed within the package.json file:
+Using npm:
+npm install
+
+Or using Yarn (if preferred):
+yarn install
+
+Once completed successfully, proceed to the next section for usage instructions.
+run using:
+npm run dev
 
 ---
 ---
@@ -80,7 +98,7 @@ Contributions are welcome! Here are several ways you can contribute:
 1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
 2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
    ```sh
-   git clone https://github.com/mugabe-rob/coa_codechalleng
+   git clone https://github.com/BaRemy/coa_codechallenvolunteerfit
    ```
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
@@ -102,6 +120,18 @@ Once your PR is reviewed and approved, it will be merged into the main branch.
 </details>
 
 ---
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+
+
+👤 **Robert MUGABE**
+
+- GitHub: [@githubhandle](https://github.com/mugabe-rob)
+
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/robert-mugabe-1548ba251/)
+
 
 <!-- LICENSE -->
 
