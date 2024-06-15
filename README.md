@@ -60,26 +60,31 @@ VolunteerFit is your one-stop shop for connecting with incredible volunteer oppo
 ---
 ## Installation
 ### 1.Clone the repository:
+```
 git clone https://github.com/BaRemy/volunteerfit.git
-
+```
 ### Navigate into the project directory:
+```
 cd volunteerfit
-
+```
 ### Make sure you have Node.js and NPM installed on your system 
+```
 npm --version
-
+```
 ### Install all the required packages listed within the package.json file:
 Using npm:
+```
 npm install
-
+```
 Or using Yarn (if preferred):
+```
 yarn install
-
+```
 Once completed successfully, proceed to the next section for usage instructions.
 run using:
+```
 npm run dev
-
----
+```
 ---
 ## Usage
 - `npx create-react-native-app` Create a new React Native app.
@@ -98,7 +103,7 @@ Contributions are welcome! Here are several ways you can contribute:
 1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
 2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
    ```sh
-   git clone https://github.com/BaRemy/coa_codechallenvolunteerfit
+   git clone https://github.com/BaRemy/volunteerfit
    ```
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
@@ -126,11 +131,12 @@ Once your PR is reviewed and approved, it will be merged into the main branch.
 
 
 
-👤 **Robert MUGABE**
+👤 **Robert MUGABE**         
+👤 **Remmy BAHATI**
 
 - GitHub: [@githubhandle](https://github.com/mugabe-rob)
 
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/robert-mugabe-1548ba251/)
+- Github:  [@githubhandle](https://github.com/BaRemy)
 
 
 <!-- LICENSE -->
